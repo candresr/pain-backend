@@ -1,0 +1,9 @@
+module: backend
+application: grunenthal-pain-training
+runtime: php55
+api_version: 1
+version: 1
+
+handlers:
+- url: /.*
+  script: index.php
